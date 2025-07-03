@@ -1,3 +1,7 @@
+# Het toevoegen van de juiste libraries
+import requests
+import os
+
 # App word opgebouwd in verschillende handige functies
 
 # functie 1 Maaltijd of ingredient opzoeken
@@ -14,4 +18,6 @@
 # functie 4 persoonlijke macrodoelen instellen
 # De app vergelijkt je huidige dagtotaal en berekend hoeveel je nog moet eten
 
-#Daarnaast moet er ook een command line menu komen om de functies aan te roepen en terug te keren naar het menu!
+# Daarnaast moet er ook een command line menu komen om de functies aan te roepen en terug te keren naar het menu!
+
+# Wellicht leuke functionaliteit bij het opstarten van de app een 
