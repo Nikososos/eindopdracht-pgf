@@ -1,5 +1,6 @@
 # Het toevoegen van de juiste libraries
 import requests
+from dotenv import load_dotenv
 import os
 
 # App word opgebouwd in verschillende handige functies
