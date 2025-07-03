@@ -3,6 +3,10 @@ import requests
 from dotenv import load_dotenv
 import os
 
+load_dotenv()
+api_id = os.getenv("api_id_nutritionix")
+api_key = os.getenv("api_key_nutritionix")
+
 # App word opgebouwd in verschillende handige functies
 
 # functie 1 Maaltijd of ingredient opzoeken
