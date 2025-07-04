@@ -13,6 +13,16 @@ api_key = os.getenv("api_key_nutritionix")
 # Gebruiker typt in bijvoorbeeld kipfilet of banaan
 # Gebruiker krijgt voedingswaarden terug per 100g opgedeeld in KCAL, EIWITTEN, VETTEN EN KOOLHYDRATEN
 
+# def zoekfunctie(zoekterm, hoeveelheid = 100):
+url = "https://trackapi.nutritionix.com/v2/natural/nutrients"
+
+response = requests.get(url)
+if response.status_code == 200:
+    print("data", response.json())
+else:
+    print("data not found")
+    print("status code: ", response.status_code)
+
 # functie 2 dagelijkse totaalwaarden berekenen
 # Voeg meerdere maaltijden toe en houd dagtotaal bij
 # Wederom opgedeeld in KCAL, EIWITTEN, VETTEN EN KOOLHYDRATEN
